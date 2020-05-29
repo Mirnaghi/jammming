@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from '../SearchBar/SearchBar';
+import SearchResult from '../SearchResult/SearchResult';
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <div className="App">
         <SearchBar />
     <div className="App-playlist">
-          <SearchResults />
+          <SearchResult />
       <PlayList />
     </div>
       </div>
