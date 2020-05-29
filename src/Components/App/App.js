@@ -13,7 +13,7 @@ function App() {
         <SearchBar />
     <div className="App-playlist">
           <SearchResult />
-      <PlayList />
+      <Playlist />
     </div>
       </div>
     </div>
